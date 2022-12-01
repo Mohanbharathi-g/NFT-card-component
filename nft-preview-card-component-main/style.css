@@ -1,0 +1,94 @@
+/* Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+
+
+
+
+
+html{
+    font-size: 16px;
+}
+
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%) ;
+}
+.card-container{
+    width:25rem;
+    margin:1.5rem auto;
+    padding: 1.5rem 2rem;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 0.75px 0.75px 0.5px hsl(217, 54%, 11%), -0.75px 0.75px 0.5px hsl(217, 54%, 11%)white;
+
+}
+.main-image{
+    width: 100%;
+    height:auto;
+}
+.title{
+    font-weight: 700;
+    color:hsl(0, 0%, 100%) ;
+}
+.small-para{
+    font-size: 18px;
+    color:hsl(215, 51%, 70%);
+}
+.loco-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color:hsl(178, 100%, 50%) ;
+}
+.right-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color:hsl(215, 51%, 70%) ;
+}
+.line{
+    font-size:  1rem;;
+    color:hsl(215, 32%, 27%) ;
+
+}
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.avatar{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    /* box-shadow: 1.5px 1.5px 0.75px white,-1.5px -1.5px 0.75px white; */
+}
+.bottom-para{
+    font-size: 16px;
+ 
+    color:hsl(215, 51%, 70%) ;
+}
+.strong{
+    margin-left: 0.3rem;
+    font-weight: 400;
+    color:hsl(0, 0%, 100%) ;
+}
